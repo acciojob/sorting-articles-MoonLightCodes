@@ -26,15 +26,16 @@ body {
 #band {
   background-color: transparent; /* Corrected spelling mistake */
   width: 90%;
-  height: 100%;
-  display: flex; /* Added display property */
-  justify-content: space-between;
+  height:auto;
+  display: flex; 
+flex-direction:column;
 }
 
 .item {
   background-color: white;
   text-decoration: none; /* Changed block to none (valid property value) */
-  padding: 10px 2px;
+  padding: 10px ;
   font-size: 1.1rem;
-  margin-bottom: 2px;
+	
+	margin-bottom:2px;
 }
